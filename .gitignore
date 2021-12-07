@@ -1,0 +1,12 @@
+*.cdb
+*.hdb
+*.xml
+*.qmsg
+*.lpc.txt
+*.db_info
+/chapter2/2.9.2_decoder/db/*
+*.bak
+/chapter2/2.9.2_decoder/work/*
+/chapter2/2.9.2_decoder/output_files/*
+*.swp
+/chapter2/2.9.2_decoder/incremental_db/*

@@ -1,0 +1,29 @@
+C:/sources/studies/fpga/verilog_studies/chapter2/2.9.2_decoder/src/design/dec2to4.v {1 {vlog -work work C:/sources/studies/fpga/verilog_studies/chapter2/2.9.2_decoder/src/design/dec2to4.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dec2to4
+
+Top level modules:
+	dec2to4
+
+} {} {}} C:/sources/studies/fpga/verilog_studies/chapter2/2.9.2_decoder/src/testbench/test_dec.v {1 {vlog -work work C:/sources/studies/fpga/verilog_studies/chapter2/2.9.2_decoder/src/testbench/test_dec.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_dec1to2
+
+Top level modules:
+	tb_dec1to2
+
+} {} {}} C:/sources/studies/fpga/verilog_studies/chapter2/2.9.2_decoder/src/testbench/test_dec2to4.v {1 {vlog -work work C:/sources/studies/fpga/verilog_studies/chapter2/2.9.2_decoder/src/testbench/test_dec2to4.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_dec2to4
+
+Top level modules:
+	tb_dec2to4
+
+} {} {}} C:/sources/studies/fpga/verilog_studies/chapter2/2.9.2_decoder/src/design/dec1to2.v {1 {vlog -work work C:/sources/studies/fpga/verilog_studies/chapter2/2.9.2_decoder/src/design/dec1to2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dec1to2
+
+Top level modules:
+	dec1to2
+
+} {} {}}
