@@ -1,0 +1,20 @@
+|gt2b
+a[0] => s0.IN0
+a[0] => s5.IN0
+a[0] => s2.IN0
+a[1] => s2.IN1
+a[1] => s5.IN1
+a[1] => s0.IN1
+b[0] => s2.IN1
+b[0] => s4.IN1
+b[0] => s5.IN1
+b[0] => s3.IN1
+b[0] => s1.IN1
+b[0] => s0.IN1
+b[1] => s5.IN1
+b[1] => s4.IN1
+b[1] => s2.IN1
+b[1] => s0.IN1
+gt <= gt.DB_MAX_OUTPUT_PORT_TYPE
+
+
