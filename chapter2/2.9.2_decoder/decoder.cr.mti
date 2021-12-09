@@ -5,26 +5,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	dec3to8
 
-} {} {}} C:/sources/verilog/verilog_studies/chapter2/2.9.2_decoder/src/testbench/test_dec2to4.v {1 {vlog -work work {C:\sources\verilog\verilog_studies\chapter2\2.9.2_decoder\src\testbench\test_dec2to4.v}
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module tb_dec2to4
-
-Top level modules:
-	tb_dec2to4
-
-} {} {}} C:/sources/verilog/verilog_studies/chapter2/2.9.2_decoder/src/design/dec4to16.v {1 {vlog -work work C:/sources/verilog/verilog_studies/chapter2/2.9.2_decoder/src/design/dec4to16.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module dec4to16
-
-Top level modules:
-	dec4to16
-
-} {} {}} C:/sources/verilog/verilog_studies/chapter2/2.9.2_decoder/src/design/dec1to2.v {1 {vlog -work work C:/sources/verilog/verilog_studies/chapter2/2.9.2_decoder/src/design/dec1to2.v
+} {} {}} C:/sources/verilog/verilog_studies/chapter2/2.9.2_decoder/src/design/dec1to2.v {1 {vlog -work work {C:\sources\verilog\verilog_studies\chapter2\2.9.2_decoder\src\design\dec1to2.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module dec1to2
 
 Top level modules:
 	dec1to2
+
+} {} {}} C:/sources/verilog/verilog_studies/chapter2/2.9.2_decoder/src/design/dec4to16.v {1 {vlog -work work {C:\sources\verilog\verilog_studies\chapter2\2.9.2_decoder\src\design\dec4to16.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dec4to16
+
+Top level modules:
+	dec4to16
 
 } {} {}} C:/sources/verilog/verilog_studies/chapter2/2.9.2_decoder/src/testbench/test_dec4to16.v {1 {vlog -work work C:/sources/verilog/verilog_studies/chapter2/2.9.2_decoder/src/testbench/test_dec4to16.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -32,6 +25,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	tb_dec4to16
+
+} {} {}} C:/sources/verilog/verilog_studies/chapter2/2.9.2_decoder/src/testbench/test_dec3to8.v {1 {vlog -work work {C:\sources\verilog\verilog_studies\chapter2\2.9.2_decoder\src\testbench\test_dec3to8.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_dec3to8
+
+Top level modules:
+	tb_dec3to8
 
 } {} {}} C:/sources/verilog/verilog_studies/chapter2/2.9.2_decoder/src/design/dec2to4.v {1 {vlog -work work {C:\sources\verilog\verilog_studies\chapter2\2.9.2_decoder\src\design\dec2to4.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012

@@ -6,7 +6,9 @@ module tb_dec2to4;
   wire[3:0]   s_tb;
   integer i = 0;
   
-  dec2to4 DUT( .a({a_tb}), .en(en_tb), .s({s_tb}) );
+  dec2to4 DUT(  .a({a_tb[1], a_tb[0]}), 
+                .en(en_tb), 
+                .s({s_tb[3], s_tb[2], s_tb[1], s_tb[0]}) );
   
   initial 
   begin

@@ -18,12 +18,13 @@ module tb_dec3to8;
     #1;
     
     for (i = 0; i < 8; i=i+1) begin
-      a_tb = 2'(i);
+      a_tb = 3'(i);
       #1;
     end
 
     en_tb = 1'b0;
     #1;
+    a_tb = 3'(0);
     
     
   end
