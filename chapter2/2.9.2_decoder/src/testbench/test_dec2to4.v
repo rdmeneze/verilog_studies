@@ -3,7 +3,7 @@
 module tb_dec2to4;
   reg[1:0]    a_tb;
   reg         en_tb;
-  wire[0:3]   s_tb;
+  wire[3:0]   s_tb;
   integer i = 0;
   
   dec2to4 DUT(  .a({a_tb}), 
