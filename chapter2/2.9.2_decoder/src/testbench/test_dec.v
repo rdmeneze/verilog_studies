@@ -2,9 +2,9 @@
 
 module tb_dec1to2;
   reg   a_tb, en_tb;
-  wire[1:0]  s;
+  wire[0:1]  s_tb;
   
-  dec1to2 DUT( .a(a_tb), .en(en_tb), .s({s[1], s[0]}) );
+  dec1to2 DUT( .a(a_tb), .en(en_tb), .s(s_tb) );
   
   initial 
   begin

@@ -3,12 +3,12 @@
 module tb_dec2to4;
   reg[1:0]    a_tb;
   reg         en_tb;
-  wire[3:0]   s_tb;
+  wire[0:3]   s_tb;
   integer i = 0;
   
-  dec2to4 DUT(  .a({a_tb[1], a_tb[0]}), 
+  dec2to4 DUT(  .a({a_tb}), 
                 .en(en_tb), 
-                .s({s_tb[3], s_tb[2], s_tb[1], s_tb[0]}) );
+                .s(s_tb) );
   
   initial 
   begin
