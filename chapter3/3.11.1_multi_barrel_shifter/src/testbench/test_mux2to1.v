@@ -2,22 +2,22 @@
 
 
 module tb_mux2to1;
-  reg[7:0] bus_a_tb;
-  reg[7:0] bus_b_tb;
-  wire[7:0] bus_o_tb;
+  reg[15:0] a_tb;
+  reg[15:0] b_tb;
+  wire[15:0] o_tb;
   reg sel;
   
-  mux2to1 DUT(
+  mux2to1 #( .DATA_WIDTH(16) ) DUT(
     .sel(sel), 
-   	.bus_a(bus_a_tb), 
-    .bus_b(bus_b_tb),
-    .bus_o(bus_o_tb)  
+   	.a(a_tb), 
+    .b(b_tb),
+    .o(o_tb)  
   );
   
   initial
   begin
-    bus_a_tb = 8'hAA;
-    bus_b_tb = 8'h55;
+    a_tb = 16'hAAFF;
+    b_tb = 16'h5500;
     
     sel = 1'b0;
     #1;

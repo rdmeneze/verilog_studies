@@ -1,9 +1,21 @@
-module mux2to1(
-  input  wire sel, 
-  input  wire[7:0] bus_a, bus_b,
-  output wire[7:0] bus_o
+module mux2to1
+#(
+  parameter DATA_WIDTH = 0
+)
+(
+  input  wire                   sel, 
+  input  wire[DATA_WIDTH-1:0]   a, b,
+  output reg[DATA_WIDTH-1:0]    o
 );
 
- assign bus_o = (sel) ? (bus_b) : (bus_a);
-
+  always@(*)
+  begin
+    if (sel) begin
+      o = b;
+    end
+    else
+    begin
+      o = a;
+    end
+  end
 endmodule
