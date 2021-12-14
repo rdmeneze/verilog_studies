@@ -1,3 +1,11 @@
+//# Mutiplexer 2 to 1
+//
+// generic multiplexer with parametric data width
+//
+// author:	Rafael Dias Menezes <rdmeneze@gmail.com>
+// date:   	dez/2021
+//
+
 module mux2to1
 #(
   parameter DATA_WIDTH = 0
